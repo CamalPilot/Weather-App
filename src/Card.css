@@ -1,0 +1,40 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 77px;
+    transform: translateX(400px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #B32DD4 0%, rgba(217, 217, 217, 0) 100%);
+    border-radius: 25px;
+    max-width: 121px;
+    max-height: 118px;
+    padding: 16px 34px;
+    gap: 12px;
+}
+.cards img{
+    width: 45px;
+    height: 31px;
+}
+.card span {
+    color: rgba(255, 255, 255, 1);
+}
+
+.city {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.temperature {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+}

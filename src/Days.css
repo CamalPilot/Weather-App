@@ -1,0 +1,13 @@
+.days{
+    display: flex;
+    /* gap: 25px; */
+}
+.days button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-bottom: 1px solid !important;
+    padding: 5px 10px;
+}

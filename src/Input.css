@@ -1,0 +1,28 @@
+.input{
+    padding-top: 44px;
+    /* display: flex; */
+    /* justify-content: right; */
+    /* align-items: center; */
+    margin-bottom: 53px;
+    position: relative;
+}
+.input input{
+    width: 711px;
+    height: 66px;
+    outline: none;
+    padding-left: 33px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.input input::placeholder{
+    line-height: 45px;
+    color: rgba(82, 78, 78, 1);
+}
+.input button{
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    cursor: pointer;
+    border: none;
+    background: inherit;
+}

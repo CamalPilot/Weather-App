@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: #252323;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-board {
+  /* max-width: 817px; */
+  width: 817px;
+  margin: 0 auto;
+}

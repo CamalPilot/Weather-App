@@ -1,0 +1,13 @@
+.heading{
+
+}
+.title{
+    display: inline-block;
+    font-size: 69px;
+    line-height: 103.5px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
